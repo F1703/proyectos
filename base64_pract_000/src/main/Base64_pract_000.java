@@ -20,10 +20,25 @@ public class Base64_pract_000 {
     public static void main(String[] args) {
         // TODO code application logic here
         
+        //encriptar 
         String cad= "encriptar";
+        System.out.println(" =========================");
+        System.out.println("... encriptando ...");
         Base64.Encoder en=Base64.getEncoder();
         String encriptado=en.encodeToString(cad.getBytes(StandardCharsets.UTF_8));
-        System.out.println(encriptado);
+        System.out.println("cadena     : "+cad);
+        System.out.println("encriptado : "+ encriptado);
+        
+        System.out.println(" ========================");
+        System.out.println(" ... desencriptando ...");
+        
+        Base64.Decoder de=Base64.getDecoder();
+        byte[] deco=de.decode(encriptado);
+        System.out.println("Encriptado    : "+encriptado);
+        String desen=new String(deco);
+        System.out.println("Desencriptado : "+desen);
+        
+        
     }
     
 }
