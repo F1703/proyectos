@@ -5,6 +5,9 @@
  */
 package main;
 
+import java.nio.charset.StandardCharsets;
+import java.util.Base64;
+
 /**
  *
  * @author franco
@@ -16,6 +19,11 @@ public class Base64_pract_000 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        String cad= "encriptar";
+        Base64.Encoder en=Base64.getEncoder();
+        String encriptado=en.encodeToString(cad.getBytes(StandardCharsets.UTF_8));
+        System.out.println(encriptado);
     }
     
 }
