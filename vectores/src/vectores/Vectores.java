@@ -5,17 +5,15 @@
  */
 package vectores;
 
-import java.util.Random;
 
 /**
  *
  * @author franco
  */
 public class Vectores {
-
-    /**
-     * @param args the command line arguments
-     */
+    /*
+        ordenar aleatoriamente un vector... nose si sera asi..
+    */
     public static void main(String[] args) {
         // TODO code application logic here
         int [] ve={2,1,4,6,7};
