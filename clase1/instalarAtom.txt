@@ -1,3 +1,6 @@
+Clase 1 de WEB
+==============
+manejo de ATom...
 instalar paqute tidy , ctrl+ ,   linter-tidy. ->  t marca los errores, desabilitar en cso de ser molesto..
 
 menu>view>developer>reload windows   > habilita
